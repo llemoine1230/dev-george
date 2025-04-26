@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
 body {
    font-family: "Delius", serif;
   font-weight: 400;
@@ -30,6 +31,7 @@ p {
   text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black, 0 -0.07em black;
   /*   new code! */
 }
+
 div.form{
    /*   new code! Centered form using a <div>  */
     display: block;
@@ -51,7 +53,7 @@ form{
 .dateLog {/* new code! changed how the form looked: Made it more opaque, added rounded edges, changed sizing   */
   background: rgba(255, 255, 255, 0.6);
   height: 100px;
-  width: 512px;
+  width: 450px;
   padding: 0 10px 0 45px;
   font-size: 20px;
    font-family: "Delius", serif;
@@ -64,7 +66,7 @@ form{
   background: rgba(255, 255, 255, 0.6);
   
   height: 100px;
-  width: 512px;
+  width: 450px;
   padding: 0 10px 0 45px;
    font-family: "Delius", serif;
   font-weight: 400;
@@ -77,8 +79,8 @@ form{
   background: rgba(255, 255, 255, 0.6);
   
   height: 100px;
-  width: 512px;
-  padding: 0 10px 0 45px;
+  width: 450px;
+  padding: 0 10px 0 40px;
    font-family: "Delius", serif;
   font-weight: 400;
   font-style: normal;
@@ -94,7 +96,7 @@ form{
   margin: 10px;
 
 }
-ul {
+.readingUl {
   color: #CCCCFF;
   font-size: 20px;
   /*  New code! Apply a shadow effect to text to make it stand out better on page  */
@@ -127,3 +129,25 @@ a {
   align-items: center;
   height: 100%;
   width: 100%;
+}
+.modal-content {
+  border-radius: 20px;
+  background: linear-gradient(#ffccff, #ccccff, #ffff99);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+#clickLogin{
+  font-family: "Delius", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-image: linear-gradient(to right, #ffccff, #ccccff, #ffff99);
+  margin: 10px;
+  color: Black;
+}
+#submitCred{
+  font-family: "Delius", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-image: linear-gradient(to right, #ffccff, #ccccff, #ffff99);
+  margin: 10px;
+  color: Black;
+}
