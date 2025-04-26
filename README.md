@@ -25,3 +25,5 @@ This app is an assignment for my college web development class. The aim is to ta
 ---
 
 ## Screenshots
+![image](https://github.com/user-attachments/assets/f8cd238f-2c8d-4d4c-9fea-d95374cabc98)
+
