@@ -23,7 +23,11 @@ This project builds on a public Bootstrap example, modified to meet specific des
 This app is an assignment for my college web development class. The aim is to take our first project and improve upon the design and functionality in order to showcase what we have learned and prepare for our projects course.
 
 ---
-
+## Development Story
+Starting with the basics of HTML, CSS, and Javascript, I was able to build my first webpage, albeit a very simple and rudamentry one. It started out on Codepen.io, with a lot of just clicking and seeing what every action did. Now, at the end of the course, I am further expanding upon my webpage and adding a bit of functionality using more advanced skills. I have graduated from Codepen.io to Visual Studio Code for my work, and I am now able to deploy my app using GitHub.
 ## Screenshots
-![image](https://github.com/user-attachments/assets/f8cd238f-2c8d-4d4c-9fea-d95374cabc98)
+![image](https://github.com/user-attachments/assets/0cd3ccce-1b22-41a4-a969-d591c50105da)
 
+## Future App Ideas
+
+---
