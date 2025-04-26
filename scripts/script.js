@@ -1,21 +1,31 @@
 $(document).ready(function () {
-  //code goes here
-  $("#saveReadingData").on("click", function () {
-    //call f/n
-    let statusText = underConstruction("not ready");
-    //update the status
-    $("#saveReadingData").text(statusText).prop("disabled", true);
+    fetch("data/json-data.json")
+    .then(response => response.json())
+    .then(data => {
+      let readingList = $("#readingList");
+      data.forEach(entry => {
+        let listItem = `<li><strong>${entry.date}:</strong> ${entry.note}</li>`;
+        readingList.append(listItem); 
+      });
+    })
+    .catch(error => {
+      console.error("Error loading data.json:", error);
+    });
+  $("#saveReadingData").on("click", function (e) {
+    e.preventDefault(); 
+
+    const dateLog = $("#dateLog").val().trim();
+    const whatRead = $("#whatRead").val().trim();
+    const anyNotes = $("#anyNotes").val().trim();
+
+    if (dateLog && whatRead) {
+      const newEntry = `<li><strong>${dateLog}:</strong> ${whatRead} - <em>${anyNotes}</em></li>`;
+      $("#readingList").append(newEntry); 
+      $("#dateLog").val('');
+      $("#whatRead").val('');
+      $("#anyNotes").val('');
+    } else {
+      alert("Please fill in both the Date and What You Read fields.");
+    }
   });
-  //function to pass a status (ready or not ready) and get back a message for user
-  //rn, not ready
-  function underConstruction(status) {
-    return "not yet ready";
-  }
-});
-
-//document.body.style.backgroundColor = "";
-// var el = document.getElementById("firstLog");
-//el.innerText = "who cares about barry's parking";
-
-//$("body").css("background-color", "");
-//$("#firstLog").css("background-color", "");
+  });
