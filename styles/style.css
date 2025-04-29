@@ -49,6 +49,7 @@ form{
   label {
        color: #ffffcc;
     font-size: 20px;
+    
 }
 .dateLog {/* new code! changed how the form looked: Made it more opaque, added rounded edges, changed sizing   */
   background: rgba(255, 255, 255, 0.6);
@@ -142,6 +143,8 @@ a {
   background-image: linear-gradient(to right, #ffccff, #ccccff, #ffff99);
   margin: 10px;
   color: Black;
+  display: block;
+  margin: 10px auto;
 }
 #submitCred{
   font-family: "Delius", serif;
@@ -150,4 +153,28 @@ a {
   background-image: linear-gradient(to right, #ffccff, #ccccff, #ffff99);
   margin: 10px;
   color: Black;
+}
+#navId{
+  font-family: "Delius", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-image: linear-gradient(to right,  #ffff99,#ccccff,  #ee9eee, #ccccff, #ffff99);
+  margin: 10px;
+  font-size: 20px;
+  color: Black;
+  padding: 0 10px 0 40px;
+  border: none;
+  border-radius: 30px; 
+}
+#footer{
+  font-family: "Delius", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-image: linear-gradient(to right,  #ffff99,#ccccff,  #ee9eee, #ccccff, #ffff99);
+  margin: 10px;
+  font-size: 20px;
+  color: Black;
+  padding: 0 10px 0 40px;
+  border: none;
+  border-radius: 30px;
 }
