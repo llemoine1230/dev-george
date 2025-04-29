@@ -4,10 +4,11 @@
 
 **Author:** Laura Lemoine  
 **Date:** 2025-04-28  
+
 **Code Sources:** 
--[BootstrapExamples - Bootstrap 5 Login Modal](https://bootstrapexamples.com/@anonymous/bootstrap-5-login-modal)
--[Dr. Cumbies JSON Instructions](https://github.com/barrycumbie/jubilant-garbanzo-easy-read)
----
+- BootstrapExamples - [Bootstrap 5 Login Modal](https://bootstrapexamples.com/@anonymous/bootstrap-5-login-modal)
+- Dr. Cumbies JSON Instructions - [Jubilant Garbanzo Easy Read](https://github.com/barrycumbie/jubilant-garbanzo-easy-read)
+
 
 ## User Story
 
