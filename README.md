@@ -4,10 +4,9 @@
 
 **Author:** Laura Lemoine  
 **Date:** 2025-04-28  
-**Base Code Source:** [BootstrapExamples - Bootstrap 5 Login Modal](https://bootstrapexamples.com/@anonymous/bootstrap-5-login-modal)
-
-This project builds on a public Bootstrap example, modified to meet specific design and functional needs.
-
+**Code Sources:** 
+-[BootstrapExamples - Bootstrap 5 Login Modal](https://bootstrapexamples.com/@anonymous/bootstrap-5-login-modal)
+-[Dr. Cumbies JSON Instructions](https://github.com/barrycumbie/jubilant-garbanzo-easy-read)
 ---
 
 ## User Story
