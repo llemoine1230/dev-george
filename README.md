@@ -28,7 +28,6 @@ Starting with the basics of HTML, CSS, and Javascript, I was able to build my fi
 ## Screenshots
 ![image](https://github.com/user-attachments/assets/7cc5df5e-b4ff-4e62-ab57-86be19b8aabe)
 I really love how YouVersion has it's plans laid out. Above is a screenshot of their plan tracking design via browser, but it is honeslty a lot more user friendly on the app. I would love if my Bible app was able to implement their tracking design.
-## Code Snippet of Inspiration App
 
 ## Code Snippet of Inspiration App
 
@@ -38,10 +37,8 @@ I really love how YouVersion has it's plans laid out. Above is a screenshot of t
     <path fill-rule="evenodd" clip-rule="evenodd" d="M6.712 12.484a1.002 1.002 0 0 1 1.417-.001l2.648 2.654a.25.25 0 0 0 .353 0l6.895-6.894a1 1 0 0 1 1.414 1.414l-7.782 7.781a1 1 0 0 1-1.414 0L6.71 13.9a1.002 1.002 0 0 1 .002-1.416Z" fill="currentColor"></path>
   </svg>
 </a>
-
-\n
+```
 
 ## Future App Ideas
-
 [Link to future app ideas](https://github.com/llemoine1230/dev-george/issues/1)
 
