@@ -38,7 +38,7 @@ I really love how YouVersion has it's plans laid out. Above is a screenshot of t
   </svg>
 </a>
 ```
-
+The code above is an HTML code snippet from a YouVersion plan. This code creates a clickable button used to choose which day of the plan you want to see. It is then styled using CSS. Additionally the button contains an SVG icon, which appears inside the button as a check mark.
 ## Future App Ideas
 [Link to future app ideas](https://github.com/llemoine1230/dev-george/issues/1)
 
