@@ -30,4 +30,4 @@ Starting with the basics of HTML, CSS, and Javascript, I was able to build my fi
 
 ## Future App Ideas
 
-[Issue #1 on GitHub](https://github.com/llemoine1230/dev-george/issues/1)
+[Link to future app ideas](https://github.com/llemoine1230/dev-george/issues/1)
