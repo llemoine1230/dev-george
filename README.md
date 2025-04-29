@@ -39,8 +39,9 @@ $(document).ready(function () {
   function underConstruction(status) {
     return "not yet ready";
   }
-});```
-
+});
+```
+The code above is for a button that was intended to save any new reading logs, however, it was not yet functional so when clicked it would display "not ready" back to the user.
 ## Screenshot of Inspiration App
 ![image](https://github.com/user-attachments/assets/7cc5df5e-b4ff-4e62-ab57-86be19b8aabe)
 I really love how YouVersion has it's plans laid out. Above is a screenshot of their plan tracking design via browser, but it is honeslty a lot more user friendly on the app. I would love if my Bible app was able to implement their tracking design.
