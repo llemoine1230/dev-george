@@ -42,3 +42,4 @@ I really love how YouVersion has it's plans laid out. Above is a screenshot of t
 ## Future App Ideas
 
 [Link to future app ideas](https://github.com/llemoine1230/dev-george/issues/1)
+
