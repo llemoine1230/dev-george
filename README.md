@@ -25,7 +25,23 @@ This app is an assignment for my college web development class. The aim is to ta
 ---
 ## Development Story
 Starting with the basics of HTML, CSS, and Javascript, I was able to build my first webpage, albeit a very simple and rudamentry one. It started out on Codepen.io, with a lot of just clicking and seeing what every action did. Now, at the end of the course, I am further expanding upon my webpage and adding a bit of functionality using more advanced skills. I have graduated from Codepen.io to Visual Studio Code for my work, and I am now able to deploy my app using GitHub.
-## Screenshots
+
+## Screenshot of Original App
+![image](https://github.com/user-attachments/assets/fe8a1dd9-d601-41a5-a01a-5258da985a85)
+```javascript
+$(document).ready(function () {
+  $("#saveReadingData").on("click", function () {
+    let statusText = underConstruction("not ready");
+    $("#saveReadingData").text(statusText).prop("disabled", true);
+  });
+  //function to pass a status (ready or not ready) and get back a message for user
+  //rn, not ready
+  function underConstruction(status) {
+    return "not yet ready";
+  }
+});```
+
+## Screenshot of Inspiration App
 ![image](https://github.com/user-attachments/assets/7cc5df5e-b4ff-4e62-ab57-86be19b8aabe)
 I really love how YouVersion has it's plans laid out. Above is a screenshot of their plan tracking design via browser, but it is honeslty a lot more user friendly on the app. I would love if my Bible app was able to implement their tracking design.
 
