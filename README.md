@@ -29,5 +29,5 @@ Starting with the basics of HTML, CSS, and Javascript, I was able to build my fi
 ![image](https://github.com/user-attachments/assets/0cd3ccce-1b22-41a4-a969-d591c50105da)
 
 ## Future App Ideas
-
+https://github.com/llemoine1230/dev-george/issues/1
 ---
